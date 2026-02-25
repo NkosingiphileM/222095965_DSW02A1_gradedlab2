@@ -1,0 +1,49 @@
+ body {
+  width: 730px;
+  height: 180px;
+  margin-left: 25%;
+}
+
+div {
+font-family: Comic Sans MS, cursive, sans-serif;
+  border: 2px solid black;
+}
+.id {
+  background-color: yellow;
+}
+#id {
+  display: block;
+  float: left;
+  margin-left: 85%;
+
+}
+span.class {
+  display: block;
+  margin-left: 90%;
+
+  font-style: italic;
+}
+div.class span {
+  display: block;
+  margin-left: 90%;
+  padding-bottom: 3%;
+}
+div.class .id {
+  width: 2%;
+  position: absolute;
+  top: 83px;
+}
+div.class #class {
+  width: 42%;
+  position: absolute;
+  top: 83px;
+  margin-left: 30px;
+ 
+}
+#H {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: 30%;
+  margin-left: 35%;
+}
